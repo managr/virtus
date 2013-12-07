@@ -1,4 +1,5 @@
 require 'ostruct'
+require 'axiom-types'
 
 # Base module which adds Attribute API to your classes
 module Virtus
@@ -221,7 +222,6 @@ end # module Virtus
 
 require 'descendants_tracker'
 require 'equalizer'
-require 'axiom-types'
 require 'coercible'
 
 require 'virtus/support/equalizer'
